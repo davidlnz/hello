@@ -1,4 +1,4 @@
-#Hello world
-name = input("¿What's your name? ")
+from functions import read_name, greetings
 
-print("Hello " + name)
+name = read_name()
+greetings(name)
